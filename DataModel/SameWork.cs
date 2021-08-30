@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
+using System.ComponentModel.DataAnnotations.Schema;
 namespace DataModel
 {
-    class SameWork
+    [Table("tblSameWork")]
+    public class SameWork
     {
     }
 }
