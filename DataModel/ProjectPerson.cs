@@ -8,5 +8,6 @@ namespace DataModel
     [Table("tblProjectPerson")]
     public class ProjectPerson
     {
+        public bool IsLeader { get; set; }
     }
 }

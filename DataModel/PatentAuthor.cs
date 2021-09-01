@@ -9,5 +9,6 @@ namespace DataModel
     [Table("tblPatentAuthor")]
     public class PatentAuthor
     {
+        public int AuthorType { get; set; }
     }
 }

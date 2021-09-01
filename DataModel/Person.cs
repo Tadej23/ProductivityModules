@@ -9,8 +9,10 @@ namespace DataModel
     public class Person
     {
         public int PersonID { get; set; }
-        public int Name { get; set; }
-        public int LastName { get; set; }
-        
+        public string Name { get; set; }
+        public string LastName { get; set; }
+        public int BirthYear { get; set; }
+        public bool Gender { get; set; }
+
     }
 }

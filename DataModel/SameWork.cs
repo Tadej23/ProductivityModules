@@ -8,5 +8,6 @@ namespace DataModel
     [Table("tblSameWork")]
     public class SameWork
     {
+
     }
 }

@@ -67,6 +67,7 @@ namespace DataModel
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=ResearchDB;Trusted_Connection=True;");
+            //Data Source=DESKTOP-EBQTRNL\SQLEXPRESS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
         }
 
 

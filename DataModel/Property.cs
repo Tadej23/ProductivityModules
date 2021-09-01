@@ -8,5 +8,8 @@ namespace DataModel
     [Table("tblProperty")]
     public class Property
     {
+        public int PropertyID { get; set; }
+        public string Name { get; set; }
     }
+
 }

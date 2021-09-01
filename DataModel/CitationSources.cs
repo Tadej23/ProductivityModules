@@ -8,5 +8,7 @@ namespace DataModel
     [Table("tblCitationSources")]
     public class CitationSources
     {
+        public int CitationSourceID { get; set; }
+        public string Name { get; set; }
     }
 }

@@ -8,5 +8,8 @@ namespace DataModel
     [Table("tblProjectType")]
     public class ProjectType
     {
+        public int ProjectTypeID { get; set; }
+        public string Name { get; set; }
+        public int Description { get; set; }
     }
 }

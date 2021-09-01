@@ -9,6 +9,7 @@ namespace DataModel
     public class Publications
     {
         public int PublicationId { get; set; }
+        public int Typology { get; set; }
 
     }
 }

@@ -9,5 +9,7 @@ namespace DataModel
     [Table("tblProfessionCategory")]
     public class ProfessionCategory
     {
+        public int ProfessionCategoryID { get; set; }
+        public string Title { get; set; }
     }
 }

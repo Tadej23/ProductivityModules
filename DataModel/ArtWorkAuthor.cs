@@ -8,5 +8,6 @@ namespace DataModel
     [Table("tblArtWorkAuthor")]
     public class ArtWorkAuthor
     {
+        public int AuthorType { get; set; }
     }
 }
