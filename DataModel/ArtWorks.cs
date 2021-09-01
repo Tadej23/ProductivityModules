@@ -8,5 +8,7 @@ namespace DataModel
     [Table("tblArtWorks")]
     public class ArtWorks
     {
+        
+        public int ArtWorkID { get; set; }
     }
 }
